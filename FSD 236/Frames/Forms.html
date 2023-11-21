@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Sign Up</legend>
+    <form action="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter name">
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="Password" id="password">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email">
+        </div><br>
+        <div>
+            <label for="number">Ph number:</label>
+            <input type="number" name="Number" id="number">
+        </div><br>
+        <div>
+            <label>Dob:</label>
+            <input type="date" name="Date" id="date">
+        </div><br>
+        <div>
+            <label for="">Gender:</label>
+            <input type="radio" name="Gender" id="male" value="male">Male
+            <input type="radio" name="Gender" id="female" value="female">Female
+        </div><br>
+        <div>
+            <label for="subject">Subject:</label>
+            <input type="checkbox" id="sub1" name="sub1" value="fsd">FSD
+            <input type="checkbox" id="sub2" name="sub2" value="python">Python
+            <input type="checkbox" id="sub3" name="sub3" value="java">Java
+        </div><br>
+        <div>
+            <label>Department:</label>
+                <select>
+                    <option value="" disabled hidden selected>--Select Branch--</option>
+                    <optgroup label="CE">
+                        <option>CSIT</option>
+                        <option>IT</option>
+                        <option>CSE</option>
+                        <option>AIML</option>
+                    </optgroup>
+                    <optgroup label="Mechanical">
+                        <option>Mech</option>
+                        <option>Automobile</option>
+                        <option>Metatronics</option>
+                    </optgroup>
+                </select>
+        </div><br>
+        <div>
+            <label>Adderess:</label>
+            <textarea name="Address" id="" cols="30" rows="10"></textarea>
+        </div><br>
+        <div>
+            <label>Upload CV:</label>
+            <input type="file" name="" id="">
+        </div><br>
+        <div>
+            <input type="submit"> <input type="reset">
+        </div>
+    </form>
+</fieldset>
+</body>
+</html>

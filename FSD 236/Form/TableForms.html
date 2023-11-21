@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Sign Up</legend>
+    <form action="post">
+        <table>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" name="username" id="username" placeholder="Enter name"></td>
+            </tr><br>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="Password" id="password"></td>
+            </tr><br>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="Email" id="email"></td>
+            </tr><br>
+            <tr>
+                <td><label for="number">Ph number:</label></td>
+                <td><input type="number" name="Number" id="number"></td>
+            </tr><br>
+            <tr>
+                <td><label>Dob:</label></td>
+            <td><input type="date" name="Date" id="date"></td>
+            </tr><br>
+            <tr>
+                <td>
+                    <label for="">Gender:</label>    
+                    <input type="radio" name="Gender" id="male" value="male">Male
+                    <input type="radio" name="Gender" id="female" value="female">Female
+                </td>
+            </tr><br>
+            <tr>
+                <td>
+                    <label for="subject">Subject:</label>
+                    <input type="checkbox" id="sub1" name="sub1" value="fsd">FSD
+                    <input type="checkbox" id="sub2" name="sub2" value="python">Python
+                    <input type="checkbox" id="sub3" name="sub3" value="java">Java
+                </td>
+            </tr><br>
+            <tr>
+                <label>Department:</label>
+                    <select>
+                        <option value="" disabled hidden selected>--Select Branch--</option>
+                        <optgroup label="CE">
+                            <option>CSIT</option>
+                            <option>IT</option>
+                            <option>CSE</option>
+                            <option>AIML</option>
+                        </optgroup>
+                        <optgroup label="Mechanical">
+                            <option>Mech</option>
+                            <option>Automobile</option>
+                            <option>Metatronics</option>
+                        </optgroup>
+                    </select>
+            </tr><br>
+            <tr>
+                <td><label>Adderess:</label></td>
+                <td><textarea name="Address" id="" cols="30" rows="10"></textarea></td>
+            </tr><br>
+            <tr>
+                <td><label>Upload CV:</label></td>
+                <td><input type="file" name="" id=""></td>
+            </tr><br>
+            <tr>
+                <td><input type="submit"> <input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>
